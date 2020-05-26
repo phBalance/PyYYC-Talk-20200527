@@ -32,7 +32,7 @@ class ReadThread(threading.Thread):
     print('{} full msg received: {}'.format(self.threadName, self.msg))
 
     # Close the connection.
-    conn.close()
+    self.conn.close()
 
 while True:
   # Blocks and waits for a connection.
