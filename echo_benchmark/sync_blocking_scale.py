@@ -1,6 +1,5 @@
 import socket
 import threading
-import _thread
 
 sock = socket.socket()
 sock.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
